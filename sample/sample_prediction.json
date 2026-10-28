@@ -1,0 +1,46 @@
+{
+  "patient": {
+    "age": 67,
+    "days_since_stroke": 45,
+    "nihss": 8,
+    "fm_le": 20,
+    "baseline_speed": 0.45,
+    "knee_rom_deg": 31.1,
+    "asymmetry_pct": 56.3
+  },
+  "therapy": {
+    "sessions_per_week": 3,
+    "weeks": 8,
+    "session_min": 45
+  },
+  "prediction": {
+    "pred": 0.728,
+    "lo": 0.592,
+    "hi": 0.816
+  },
+  "scenario_B": {
+    "sessions_per_week": 5,
+    "weeks": 8,
+    "session_min": 45
+  },
+  "scenario": {
+    "pred_A": 0.728,
+    "pred_B": 0.823,
+    "delta": 0.095,
+    "intervals_overlap": true,
+    "synthetic_truth_delta": 0.084
+  },
+  "illustrative_actual": 0.78,
+  "error": 0.052,
+  "metrics": {
+    "n_train": 1200,
+    "n_calibration": 400,
+    "n_test": 400,
+    "mae": 0.075,
+    "r2": 0.763,
+    "mae_no_change_baseline": 0.293,
+    "interval_coverage": 0.777,
+    "nominal_coverage": 0.8,
+    "mean_interval_width": 0.244
+  }
+}

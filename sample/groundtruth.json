@@ -1,0 +1,10 @@
+{
+  "fps": 30,
+  "size": [
+    640,
+    480
+  ],
+  "left_peak_knee_flexion_deg": 60,
+  "right_peak_knee_flexion_deg": 35,
+  "stride_time_s": 1.1
+}
